@@ -43,7 +43,7 @@ This repository is a Node.js application that integrates Express.js, Multer, and
    The server will start, and you can access it at `http://localhost:5000`.
 
 2. **Upload a File:**
-   Send a `POST` request to `/upload` with the file in the `form-data` under the key `file`.
+   Send a `POST` request to `/api/files/upload` or `<your own endpoint>` with the file in the `form-data` under the key `file`.
 
 3. **Response:**
    The server will respond with the Cloudinary URL of the uploaded file.
